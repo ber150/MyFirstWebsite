@@ -1,0 +1,58 @@
+h1{
+    font-family: Mulish, sans-serif;
+    color:#3D405B;
+    }
+    nav ul{
+        border-top:5px solid black;
+        border-bottom:5px solid black;
+        display:flex;
+        justify-content: space-around;
+        align-items:center;
+        list-style:none;
+        height:40px;
+        width:100%;
+        background-color: #81B29A;
+    }
+
+    nav li a{
+    text-decoration: none;
+    color: #F4F1DE;
+    font-family: Mulish, Verdana, sans-serif;
+    font-size: 20px;
+    }
+
+    nav li a:hover{
+        background-color: #3D405B;
+    }
+h2{
+    text-align: center;
+    color: #3D405B;
+    margin-top:5%;
+}
+fieldset{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:60%;
+    margin-left:20%;
+    margin-top:10px;
+    background-color: #F4F1DE;
+}
+.input-label-format{
+    display:flex;
+    flex-direction:column;
+    padding:5px;
+}
+.checkboxs{
+    display:flex;
+    padding-top:10px;
+}
+
+button{
+margin-top:20px;
+background-color:#81B29A;
+border-radius: 10px;
+height:30px;
+width:90px;
+font-size: 20px;
+}

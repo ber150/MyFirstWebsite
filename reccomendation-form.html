@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Leave us a Reccomendation</title>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap" rel="stylesheet">
+        <link href="form.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--Heading-->
+        <h1>Get Outdoors in California</h1>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li><a href="reccomendation-form.html">Reccomend a Hike</a></li>
+                    <li><a href="partners.html">Our Partners</a></li>
+                    <li><a href="hilights.html">Highlights</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--form-->
+        <h2>Reccomend your favorite spot in town!</h2>
+            <form action="/form-handling-server" method="post">
+                <fieldset>
+                    <div class="input-label-format">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username">
+                    </div>
+
+                    <div class="input-label-format">
+                        <label for="hike-location">Location of Activity:</label>
+                        <input type="text" id="hike-location" name="location of trail">
+                    </div>
+
+                    <div class="checkboxs">
+                        <h3>Select Features of Activity:</h3>
+                            <input type="checkbox" id="half-day" name="half-day-activity">
+                            <label for="half-day"> Half-day Activity Locations</label>
+
+                            <input type="checkbox" id="overnight" name="overnight-activity">
+                            <label for="overnight">Overnight Locations</label>
+
+                            <input type="checkbox" id="water" name="water-activity">
+                            <label for="water">Hot Spring or Swimming Hole</label>
+
+                            <input type="checkbox" id="passive" name="passive-activity">
+                            <label for="passive">Passive Activities</label>
+                    </div>
+
+                    <div class="comments">
+                        <label for="comments">Comments:</label>
+                        <textarea for="comments" name="comments"></textarea>
+                    </div>
+
+                    <button>Submit</button>
+
+    </body>
+</html>
